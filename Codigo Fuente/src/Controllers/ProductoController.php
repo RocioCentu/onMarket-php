@@ -45,7 +45,12 @@ class ProductoController extends Controller
         $categoria = new Categoria();
         $error=0;
         //conceptos generales
+        if (FuncionesComunes::validarCadena($publicacion["titulo"])) {
+            $producto->setNombre($publicacion["titulo"]);
+        }else{
+            $error.=1;
 
+        }
         if (FuncionesComunes::validarCadena($publicacion["nombre"])) {
             $producto->setNombre($publicacion["nombre"]);
         }else{
@@ -72,7 +77,7 @@ class ProductoController extends Controller
             $error.=1;
 
         }
-        echo $publicacion["categoria"];
+        echo ($publicacion["categoria"]) ;
 
         if ($publicacion["categoria"] !== 0) {
             //categoria obtener id y setearlo

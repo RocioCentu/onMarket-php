@@ -113,9 +113,10 @@ class UsuarioController extends Controller
                 for ($i = 0; $i < $tope; $i++) {
                     //parte para las estadisticas
                     $prod = new Producto();
-                    $productoCompra = $prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
+                    $productoCompra = $prod->buscarPorPk($_SESSION["carrito"][$i]["id"]);
+
                     //metodo de estadisticas
-                    $this->realizarEstadisticas($productoCompra);
+                  $this->realizarEstadisticas($productoCompra);
 
                     //realizar compra
                     $cobranza->setIdTarjeta($idTarjeta);
@@ -125,7 +126,7 @@ class UsuarioController extends Controller
                     $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
                     $cobranza->setCantidad($_SESSION["carrito"][$i]["cantidad"]);
                     //estadistica de montos
-                    $this->estadisticasMontos($total);
+                 $this->estadisticasMontos($total);
 
                     //vendedor
                     $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
@@ -141,7 +142,7 @@ class UsuarioController extends Controller
                     $cuenta->realizarDeposito($cuentaVendedor, $precio);
 
                     $idCobranza = $cobranza->insertarCobranza();
-                    $this->enviarMails($_SESSION["carrito"], $direccion, $email);
+                   // $this->enviarMails($_SESSION["carrito"], $direccion, $email);
 
                 }
 
@@ -204,6 +205,7 @@ class UsuarioController extends Controller
             $estadistica = new Estadisticas();
             $estadistica->setCantidad(1);
             $estadistica->setIdTipo(2);
+            $estadistica->setIdProducto($productoCompra['id']);
             $idEstadistica = $estadistica->insertarEstadistica();
 
             $categoria->setIdCategoria($categoriaProd["id"]);
@@ -323,12 +325,14 @@ class UsuarioController extends Controller
         $error = 0;
         if (FuncionesComunes::validarNumeros($estrellas)) {
             $valoracion->setNumero($estrellas);
+            $error = 0;
         } else {
             $error .= 1;
         }
         if (isset($comentario)) {
             if (FuncionesComunes::validarCadenaNumerosYEspacios($comentario)) {
                 $valoracion->setComentario($comentario);
+                $error = 0;
             } else {
                 $error .= 1;
 
@@ -336,6 +340,7 @@ class UsuarioController extends Controller
         }
         if ($error == 0) {
             $valoracion->insertarValoracion();
+
             $promedio = $valoracion->realizarPromedioPorPk($idVendedor["id"]);
             $idValoracion = $tipoValoracion->definirIdPorPromedio($promedio);
             $vendedor->setId($idVendedor["id"]);

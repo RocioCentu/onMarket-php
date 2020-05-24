@@ -37,10 +37,13 @@ class Estadisticas extends Model
 
             "id_tipo"=>$this->getIdTipo(),
             "cantidad"=>1,
+            "id_Producto"=>$this->getIdProducto(),
 
         ] ;
-        $this->setId($this->insert($array));
+        $id=$this->insert($array);
+        $this->setId($id);
         return $this->getId();
+
     }
 
     public function actualizarEstadistica(){

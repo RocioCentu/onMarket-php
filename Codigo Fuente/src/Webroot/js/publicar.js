@@ -68,22 +68,27 @@ $("#descripcion").keyup(function(){
 
 
 $("#titulo").keyup(function dsads(){
-    var name=$("#titulo").val();
-    if(name === null || name.length === 0 || name === "") {
-        $("#errortitulo").removeClass("d-none").addClass("d-flex").find("small").text("El título no puede estar vacio");
-        $("#errortitulo").fadeIn("slow");
+    var titulo=$("#titulo").val();
+    if(titulo === null || titulo.length === 0 || titulo === "") {
+        $("#errorTitulo").removeClass("d-none").addClass("d-flex").find("small").text("Titulo vacio");
+        $("#errorTitulo").fadeIn("slow");
+
     }
-    if((!regexletrasYNumerosYespacios.test(name))) {
-        $("#errortitulo").removeClass("d-none").addClass("d-flex").find("small").text("Titulo incorrecto");
-        $("#errortitulo").fadeIn("slow");
+    if(regexNumeros.test(titulo)) {
+        $("#errorTitulo").removeClass("d-none").addClass("d-flex").find("small").text("El Titulo no pueden ser solo números");
+        $("#errorTitulo").fadeIn("slow");
     }
-     if(regexNumeros.test(name)) {
-        $("#errortitulo").removeClass("d-none").addClass("d-flex").find("small").text("El titulo no pueden ser solo números");
-        $("#errortitulo").fadeIn("slow");
-    }else {
-         $(".errortitulo").fadeOut();
-         $(".errortitulo").removeClass("d-flex").addClass("d-none").find("span").text("");
+    if(!regexLetras.test(titulo)) {
+        $("#errorTitulo").removeClass("d-none").addClass("d-flex").find("small").text("Titulo invalido");
+        $("#errorTitulo").fadeIn("slow");
+
     }
+    else {
+
+        $("#errorTitulo").removeClass("d-flex").addClass("d-none");
+
+    }
+
 });
 
 

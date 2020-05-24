@@ -13,6 +13,7 @@ abstract class Constantes
     const USUARIOVIEW = "indexUsuario";
  	const REGISTRARVIEW = "registrar";
 	const PUBLICARVIEW = "publicar";
+	const MISVENTASVIEW="misventas";
     const BUSCADORVIEW = "buscador";
     const MOSTRARVIEW = "MostrarProducto";
     const COMPRAVIEW="compra";

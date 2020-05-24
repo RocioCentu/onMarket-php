@@ -73,6 +73,11 @@ class cobranza extends Model
         return $resultado;
 }
 
+    function traerCobranzasPorUsuario($id){
+        $resultado=$this->pageRows(0,100,"idVendedor=$id");
+        return $resultado;
+    }
+
     public function getTotal()
     {
         return $this->total;

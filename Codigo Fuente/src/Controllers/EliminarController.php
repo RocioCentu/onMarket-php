@@ -13,7 +13,7 @@ class EliminarController extends Controller
 
       $productoAmostrar=$producto->buscarUnProductoPorPk($datos["idProducto"]);
       $publicacionAmostrar=$publicacion->traePublicaionPorId($datos["idPublicacion"]);
-      $categoriaAmostrar=$categoria->obtenerValorDeGategoria($productoAmostrar["idCategoria"]);
+      $categoriaAmostrar=$categoria->obtenerValorDeGategoria($productoAmostrar["id"]);
       $imagenesAmostrar= $imagenes->imagenPk($productoAmostrar["id"]);
 
       $d["publicacion"] =  $publicacionAmostrar;

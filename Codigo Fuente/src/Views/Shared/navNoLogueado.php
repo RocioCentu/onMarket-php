@@ -48,7 +48,7 @@
 
             <div class="dropdown-menu p-2 mr-2" >
                 <div class="form-group">
-                    <label for="inputName" class="mb-0 font-weight-bolder">Usuario</label>
+                    <label for="inputName" class="mb-0 font-weight-bolder">Nombre de Usuario</label>
                     <input type="text" class="form-control my-1"  placeholder="User" name="nombre" id="inputName" data-toggle="popover" title="Nombre de usuario">
                     <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorNombre">
                         <i class="fa fa-exclamation-circle error"></i>
@@ -58,7 +58,7 @@
 
                 <div class="form-group">
                     <label for="inputPass" class="mb-0 font-weight-bolder">Contraseña</label>
-                    <input type="text" class="form-control  my-1" id="inputPass" placeholder="Contraseña" name="pass">
+                    <input type="password" class="form-control  my-1" id="inputPass" placeholder="Contraseña" name="pass">
                     <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error" id="errorPass">
                         <i class="fa fa-exclamation-circle"></i>
                         <small class="text-left"></small>

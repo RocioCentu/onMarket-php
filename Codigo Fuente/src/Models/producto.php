@@ -55,6 +55,12 @@ class Producto extends Model
         return $idArray;
     }
 
+    function buscarPorPk($pk){
+        $resultado=$this->pageRows(0,1, "id= $pk ");
+        //$resultado=$this->selectByPk($pk);
+        return $resultado[0];
+    }
+
     function filasPorPk($pk){
         $resultado=$this->pageRows(0,100, "id= $pk ");
       //$resultado=$this->selectByPk($pk);

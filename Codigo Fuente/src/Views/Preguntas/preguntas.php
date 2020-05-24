@@ -51,7 +51,7 @@
 
 
                 echo '<td><button onclick="pasarDatos(' . $idComentario.','.$idProducto.')" type="button" class="btn btn-outline-primary"  data-toggle="modal"
-            data-target="#exampleModalCenter"  >Responder</button></td>';
+            data-target="#exampleModalCenter"  >Responder </button></td>';
               
                  echo '<tr>';
             }

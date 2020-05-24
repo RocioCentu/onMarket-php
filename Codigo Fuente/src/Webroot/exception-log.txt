@@ -13670,3 +13670,684 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #3 {main}
 
+[2020-05-23 17:54:36]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-23 17:54:44]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-23 17:57:57]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-23 18:00:39]  Excepción no controlada: 'Undefined index: id' en el archivo categoria.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(41): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(79): Categoria->obtenerIdCategoria('moda')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 18:00:56]  Excepción no controlada: 'Undefined index: id' en el archivo categoria.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(41): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(79): Categoria->obtenerIdCategoria('moda')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 18:26:53]  Excepción no controlada: 'Undefined index: id' en el archivo categoria.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(41): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(84): Categoria->obtenerIdCategoria('moda')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 18:34:17]  Excepción no controlada: 'A non-numeric value encountered' en el archivo ProductoController.php en la línea 80
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(80): globalErrorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 18:34:39]  Excepción no controlada: 'Undefined index: id' en el archivo categoria.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(41): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(84): Categoria->obtenerIdCategoria('moda')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 18:57:23]  Excepción no controlada: 'json_encode() expects at least 1 parameter, 0 given' en el archivo BuscadorController.php en la línea 109
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'json_encode() e...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(109): json_encode()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 19:11:41]  Excepción no controlada: 'json_encode() expects at least 1 parameter, 0 given' en el archivo BuscadorController.php en la línea 114
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'json_encode() e...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(114): json_encode()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 19:16:03]  Error 30: 'no puede comprarse a si mismo ' en el archivo CarritoController.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-23 19:29:45]  Excepción no controlada: 'Undefined offset: 0' en el archivo Cuenta.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(135): Cuenta->consultarCuenta('2')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 19:29:52]  Excepción no controlada: 'Undefined offset: 0' en el archivo Cuenta.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(135): Cuenta->consultarCuenta('2')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 19:30:44]  Excepción no controlada: 'Undefined offset: 0' en el archivo Cuenta.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(135): Cuenta->consultarCuenta('2')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 19:32:08]  Excepción no controlada: 'Undefined offset: 0' en el archivo Cuenta.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(135): Cuenta->consultarCuenta('2')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 19:32:31]  Excepción no controlada: 'Undefined offset: 0' en el archivo Cuenta.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(135): Cuenta->consultarCuenta('2')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 19:36:54]  Excepción no controlada: 'Undefined index: id' en el archivo UsuarioController.php en la línea 136
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(136): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 19:38:06]  Excepción no controlada: 'Undefined offset: 0' en el archivo Cuenta.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(135): Cuenta->consultarCuenta('2')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 20:13:13]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-23 20:13:29]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-23 22:00:33]  Excepción no controlada: 'Undefined offset: 0' en el archivo Cuenta.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(135): Cuenta->consultarCuenta('9')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 22:01:28]  Excepción no controlada: 'Undefined offset: 0' en el archivo Cuenta.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(135): Cuenta->consultarCuenta('9')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 22:03:25]  Excepción no controlada: 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()' en el archivo UsuarioController.php en la línea 296
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 296, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(296): mail('rocio.centurion...', 'Vendiste Pelota...', 'Buen Trabajo! T...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(263): UsuarioController->enviarMensajeAlVendedor('Vendiste Pelota...', 'Buen Trabajo! T...', Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(144): UsuarioController->enviarMails(Array, 'grecia 2202', 'roci_toto99@hot...')
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 22:04:14]  Excepción no controlada: 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()' en el archivo UsuarioController.php en la línea 296
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 296, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(296): mail('rocio.centurion...', 'Vendiste Pelota...', 'Buen Trabajo! T...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(263): UsuarioController->enviarMensajeAlVendedor('Vendiste Pelota...', 'Buen Trabajo! T...', Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(144): UsuarioController->enviarMails(Array, 'dfs', 'roci_toto99@hot...')
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 22:08:20]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisVentasController.php en la línea 19
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(19): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:09:03]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 16
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(16): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:09:40]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 16
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(16): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:09:42]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 16
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(16): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:10:08]  Excepción no controlada: 'Undefined offset: 0' en el archivo cobranza.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\cobranza.php(78): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(14): cobranza->traerCobranzasPorUsuario('8')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 22:10:10]  Excepción no controlada: 'Undefined offset: 0' en el archivo cobranza.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\cobranza.php(78): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(14): cobranza->traerCobranzasPorUsuario('8')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 22:10:20]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 16
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(16): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:10:52]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisVentasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(20): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:12:01]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-23 22:12:08]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-23 22:12:21]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisVentasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(20): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:12:53]  Excepción no controlada: 'Undefined offset: 0' en el archivo MisVentasController.php en la línea 25
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(25): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:13:05]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisVentasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(20): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:13:57]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 16
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(16): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:14:33]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisVentasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(20): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:14:59]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisVentasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(20): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:15:01]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisVentasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(20): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:15:30]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(21): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:15:47]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(21): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:15:49]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(21): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:15:50]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(21): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:15:51]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(21): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:15:52]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(21): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:16:31]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(40): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:17:06]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(40): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:17:52]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(21): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:18:05]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(40): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:18:36]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(40): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:19:02]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(41): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:19:37]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(42): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:19:49]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(41): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:20:14]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 37
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(37): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:21:02]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:21:20]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:21:45]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:21:49]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:22:45]  Excepción no controlada: 'Undefined index: id' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:23:16]  Excepción no controlada: 'Undefined index: id' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:23:19]  Excepción no controlada: 'Undefined index: id' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:23:31]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:23:44]  Excepción no controlada: 'Array to string conversion' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:24:24]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(43): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:24:59]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(28): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:25:17]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(28): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:25:20]  Excepción no controlada: 'Array to string conversion' en el archivo MisVentasController.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(28): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:25:40]  Excepción no controlada: 'Undefined index: nombre' en el archivo MisVentasController.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 22:25:59]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(44): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:26:14]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(44): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:26:16]  Excepción no controlada: 'Undefined index: nombre' en el archivo misventas.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(28): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(44): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 22:30:26]  Excepción no controlada: 'Undefined offset: 3' en el archivo misventas.php en la línea 63
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\MisVentas\misventas.php(63): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MisVentasController.php(46): Controller->render('misventas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MisVentasController->ventas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 23:06:44]  Excepción no controlada: 'Undefined offset: 0' en el archivo estadisticas.php en la línea 159
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(159): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 23:12:10]  Excepción no controlada: 'Too few arguments to function Estadisticas::setIdProducto(), 0 passed in C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Estadisticas.php on line 40 and exactly 1 expected' en el archivo Estadisticas.php en la línea 103
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Estadisticas.php(40): Estadisticas->setIdProducto()
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(71): Estadisticas->insertarEstadistica()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 23:12:41]  Excepción no controlada: 'Too few arguments to function Estadisticas::setIdProducto(), 0 passed in C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Estadisticas.php on line 40 and exactly 1 expected' en el archivo Estadisticas.php en la línea 103
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Estadisticas.php(40): Estadisticas->setIdProducto()
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(71): Estadisticas->insertarEstadistica()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 23:13:43]  Excepción no controlada: 'Too few arguments to function Estadisticas::setIdProducto(), 0 passed in C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Estadisticas.php on line 40 and exactly 1 expected' en el archivo Estadisticas.php en la línea 103
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Estadisticas.php(40): Estadisticas->setIdProducto()
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(71): Estadisticas->insertarEstadistica()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 23:20:22]  Excepción no controlada: 'Undefined index: id' en el archivo UsuarioController.php en la línea 210
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(210): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 210, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(118): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 23:21:46]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 117
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(117): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-23 23:22:08]  Excepción no controlada: 'Undefined index: id' en el archivo UsuarioController.php en la línea 211
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(211): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 211, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 23:22:09]  Excepción no controlada: 'Undefined index: id' en el archivo UsuarioController.php en la línea 211
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(211): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 211, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 23:23:04]  Excepción no controlada: 'Undefined index: id' en el archivo UsuarioController.php en la línea 211
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(211): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 211, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 23:24:32]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 151
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Model.php(151): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(15): Model->update(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(213): Categoria->insertarEstadisticasAlaCategoria()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 23:26:25]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 151
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Model.php(151): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(15): Model->update(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(213): Categoria->insertarEstadisticasAlaCategoria()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 23:26:29]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 151
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Model.php(151): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(15): Model->update(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(213): Categoria->insertarEstadisticasAlaCategoria()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 23:27:06]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 151
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Model.php(151): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(15): Model->update(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(213): Categoria->insertarEstadisticasAlaCategoria()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 23:27:54]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 151
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Model.php(151): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(15): Model->update(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(213): Categoria->insertarEstadisticasAlaCategoria()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 23:37:55]  Excepción no controlada: 'Undefined offset: 0' en el archivo categoria.php en la línea 32
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(32): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(201): Categoria->traerCategoriaPorPk('12')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 23:37:59]  Excepción no controlada: 'Undefined offset: 0' en el archivo categoria.php en la línea 32
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(32): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(201): Categoria->traerCategoriaPorPk('12')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 23:39:40]  Excepción no controlada: 'Undefined offset: 0' en el archivo categoria.php en la línea 32
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(32): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(201): Categoria->traerCategoriaPorPk('12')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 23:39:57]  Excepción no controlada: 'Undefined index: id' en el archivo UsuarioController.php en la línea 211
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(211): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 211, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-23 23:41:00]  Excepción no controlada: 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()' en el archivo UsuarioController.php en la línea 298
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 298, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(298): mail('rocio.centurion...', 'Vendiste carter...', 'Buen Trabajo! T...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(265): UsuarioController->enviarMensajeAlVendedor('Vendiste carter...', 'Buen Trabajo! T...', Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(145): UsuarioController->enviarMails(Array, 'gf', 'roci_toto99@hot...')
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 23:41:22]  Excepción no controlada: 'Undefined offset: 0' en el archivo categoria.php en la línea 32
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\categoria.php(32): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(201): Categoria->traerCategoriaPorPk('12')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(119): UsuarioController->realizarEstadisticas(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-23 23:43:46]  Excepción no controlada: 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()' en el archivo UsuarioController.php en la línea 298
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 298, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(298): mail('rocio.centurion...', 'Vendiste carter...', 'Buen Trabajo! T...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(265): UsuarioController->enviarMensajeAlVendedor('Vendiste carter...', 'Buen Trabajo! T...', Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(145): UsuarioController->enviarMails(Array, 'gf', 'roci_toto99@hot...')
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 23:53:02]  Excepción no controlada: 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()' en el archivo UsuarioController.php en la línea 298
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 298, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(298): mail('rocio.centurion...', 'Vendiste Pelota...', 'Buen Trabajo! T...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(265): UsuarioController->enviarMensajeAlVendedor('Vendiste Pelota...', 'Buen Trabajo! T...', Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(145): UsuarioController->enviarMails(Array, 'grecia 2202', 'rocio.centurion...')
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#5 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2020-05-23 23:54:25]  Excepción no controlada: 'Undefined offset: 0' en el archivo Cuenta.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\UsuarioController.php(136): Cuenta->consultarCuenta('2')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+

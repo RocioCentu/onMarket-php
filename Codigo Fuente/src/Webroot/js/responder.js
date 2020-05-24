@@ -35,7 +35,7 @@ $("#enviar").click(function () {
     obj.idVendedor = $("#idVendedor").val();
     obj.idProducto = idProd;
 
-    llamadaAjax(pathComentarios, JSON.stringify(obj), true, "RespuestaExitosa", "RespuestaFallida");
+    llamadaAjax(pathComentarios2, JSON.stringify(obj), true, "RespuestaExitosa", "RespuestaFallida");
 }
 });
 

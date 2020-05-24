@@ -65,7 +65,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item text-info" href= "<?php echo getBaseAddress() . "MisCompras/mostrarHistorial" ?>">Compras</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item text-info disabled" href= "<?php echo getBaseAddress() . "MisVentas/ventas" ?>">Ventas</a>
+                <a class="dropdown-item text-info " href= "<?php echo getBaseAddress() . "MisVentas/ventas" ?>">Ventas</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item text-warning" href= "<?php echo getBaseAddress() . "Usuario/cerrarSesion" ?>">Cerrar Sesión</a>
             </div>

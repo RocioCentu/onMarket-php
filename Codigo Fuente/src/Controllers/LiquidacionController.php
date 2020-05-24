@@ -32,6 +32,7 @@ class LiquidacionController extends Controller
 
         $idMes = $data->mes;
         $idYear = $data->year;
+        echo $idMes;
 
         $cobranza = new Cobranza();
         $liquidacion = new Liquidacion();

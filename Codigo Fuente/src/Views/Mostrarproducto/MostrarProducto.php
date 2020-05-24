@@ -139,7 +139,7 @@
 
                 <hr>
                 <label class="text-secondary mt-2" for="id">Unidades a comprar:</label>
-                <input class="col-md-4 rounded d-block" type="number" value="1" name="id" id="cantidad">
+                <input class="col-md-4 rounded d-block" type="number" value="1" name="id" id="cantidad" min="1">
 
 
                 <?php

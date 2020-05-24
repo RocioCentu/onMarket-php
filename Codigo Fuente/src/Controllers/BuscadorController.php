@@ -67,6 +67,7 @@ class BuscadorController extends Controller
                             $estadistica=new Estadisticas();
                              $estadistica->setCantidad(1);
                              $estadistica->setIdTipo(1);
+                             $estadistica->setIdProducto($producto['id']);
                              $idEstadistica=$estadistica->insertarEstadistica();
                              $prod->setId($producto["id"]);
                              $prod->setIdEstadisticas($idEstadistica);
@@ -76,6 +77,8 @@ class BuscadorController extends Controller
                             // se agrega a la estadistica
                             $estadistic=new Estadisticas();
                             $estadisticaDelProd=$estadistic->traerEstadistica($producto["id_estadistica"],1);
+
+
 
                             $estadistic->setId($estadisticaDelProd["id"]);
                             $cantidad=$estadisticaDelProd["cantidad"]+1;

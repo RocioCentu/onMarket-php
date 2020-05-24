@@ -219,7 +219,7 @@ registrar.click(function () {
 
     var validacion = validarName() && validarApellido() && validarCorreo() && validarCuit() &&
          validarNombreUsuario() && validarPass() && validarTerminos() && validarDireccion() ;
-alert(validacion);
+
     if(validacion) {
         $("input").prop("disabled", true);
         registrar.prop("disabled", true);

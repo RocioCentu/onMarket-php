@@ -38,73 +38,79 @@ class ProductoController extends Controller
 
 
 
+
     function altaProducto($publicacion)
 
     {
+        header("Content-type: application/json");
+        $data = json_decode(utf8_decode($publicacion['data']));
+
         $producto = new Producto();
         $categoria = new Categoria();
         $error=0;
         //conceptos generales
-        if (FuncionesComunes::validarCadena($publicacion["titulo"])) {
-            $producto->setNombre($publicacion["titulo"]);
+        if (FuncionesComunes::validarCadena($data->titulo)) {
+            $producto->setNombre($data->titulo);
         }else{
-            $error.=1;
+            throw new NombreOPassInvalidoException("Titulo Incorrecto", CodigoError::NombreOPassInvalidoException);
 
         }
-        if (FuncionesComunes::validarCadena($publicacion["nombre"])) {
-            $producto->setNombre($publicacion["nombre"]);
+        if (FuncionesComunes::validarCadena($data->nombre)) {
+            $producto->setNombre($data->nombre);
         }else{
-            $error.=1;
+            throw new NombreOPassInvalidoException("Nombre Incorrecto ", CodigoError::NombreOPassInvalidoException);
 
         }
-        if (FuncionesComunes::validarCadenaNumerosYEspacios($publicacion["descripcion"])) {
-            $producto->setDescripcion($publicacion["descripcion"]);
+        if (FuncionesComunes::validarCadenaNumerosYEspacios($data->descripcion)) {
+            $producto->setDescripcion($data->descripcion);
         }else{
-            $error.=1;
-
-        }
-
-        if (FuncionesComunes::validarNumeros($publicacion["cantidad"])) {
-            $producto->setCantidad($publicacion["cantidad"]);
-        }else{
-            $error.=1;
+            throw new NombreOPassInvalidoException("Descripcion Incorrecta ", CodigoError::NombreOPassInvalidoException);
 
         }
 
-        if (FuncionesComunes::validarNumeros($publicacion["precio"])) {
-            $producto->setPrecio($publicacion["precio"]);
+        if (FuncionesComunes::validarNumeros($data->cantidad)) {
+            $producto->setCantidad($data->cantidad);
         }else{
-            $error.=1;
+            throw new NombreOPassInvalidoException("Cantidad Incorrecta ", CodigoError::NombreOPassInvalidoException);
 
         }
-        echo ($publicacion["categoria"]) ;
 
-        if ($publicacion["categoria"] !== 0) {
+        if (FuncionesComunes::validarNumeros($data->precio)) {
+            $producto->setPrecio($data->precio);
+        }else{
+            throw new NombreOPassInvalidoException("Precio Incorrecto ", CodigoError::NombreOPassInvalidoException);
+
+        }
+
+        if ($data->categoria !== 0) {
             //categoria obtener id y setearlo
-            $idCategoria = $categoria->obtenerIdCategoria($publicacion["categoria"]);
+            $idCategoria = $categoria->obtenerIdCategoria($data->categoria);
             if ($idCategoria != false) {
                 $producto->setIdCategoria($idCategoria);
             }
         }else{
-            $error.=1;
+            throw new NombreOPassInvalidoException("Seleccione categoria ", CodigoError::NombreOPassInvalidoException);
 
         }
 
         $error2 = 0;
         //imagenes
 
-        $countfiles = count($_FILES["imagen"]["name"]);
+
+
+
+        $countfiles = count($data->imagen);
 
         if ($countfiles >= 2 || $countfiles < 10) {
 
             for ($i = 0; $countfiles > $i; $i++) {
-                $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
+                $arrayImagenes[$i] =  $data->imagen[$i];;
 
             }
 
         }else{
 
-            $error2.=1;
+            throw new NombreOPassInvalidoException("Ingrese cantidad de imagenes correspondiente ", CodigoError::NombreOPassInvalidoException);
 
         }
 
@@ -112,31 +118,31 @@ class ProductoController extends Controller
 
         if($error2>0){
 
-            $mensaje="Carga incorrecta";
+            throw new NombreOPassInvalidoException("Ingrese cantidad de imagenes correspondiente ", CodigoError::NombreOPassInvalidoException);
 
-            echo "<script> alert('$mensaje') </script>";
-            header("Location:" .getBaseAddress().'Producto/publicar');
+
+
 
 
         }
         if($error>0) {
-        $mensaje="Error. Debe seleccionar al menos dos imágenes";
 
-        echo "<script> alert('$mensaje') </script>";
+            throw new NombreOPassInvalidoException("Ingrese cantidad de imagenes correspondiente ", CodigoError::NombreOPassInvalidoException);
+
+
 
         }
 
-        if($error==0 && $error2 ==0){
 
-            $idProducto = $producto->insertarProducto();
+                $idProducto = $producto->insertarProducto();
 
-            $this->insertarImagenes($arrayImagenes, $idProducto);
+                $this->insertarImagenes($arrayImagenes, $idProducto);
 
-            $this->guardarImagenes($publicacion, $countfiles);
+                $this->guardarImagenes($data, $countfiles);
 
-            $this->altaPublicacion($publicacion, $idProducto);
-           header('Location:'.getBaseAddress().'MisPublicaciones/publicaciones');
-        }
+                $this->altaPublicacion($data, $idProducto);
+
+                 echo json_encode(true);
 
     }
 
@@ -162,15 +168,15 @@ class ProductoController extends Controller
 
 
 
-    function guardarImagenes($publicacion, $countfiles)
+    function guardarImagenes($data, $countfiles)
 
     {
 
         for ($i = 0; $countfiles > $i; $i++) {
 
-            $archivo = $_FILES["imagen"]['name'][$i];
+            $archivo = $data->imagen[$i];
 
-            $tmpName = $_FILES['imagen']['tmp_name'][$i];
+            $tmpName = $data->imagen2[$i];
 
 
 
@@ -182,7 +188,7 @@ class ProductoController extends Controller
 
                 // guardamos el archivo a la carpeta files
 
-                $destino = $publicacion['destino'] . "/" . $archivo;
+                $destino = $data->destino . "/" . $archivo;
 
                 copy($tmpName, $destino);
 
@@ -194,7 +200,7 @@ class ProductoController extends Controller
 
 
 
-    function altaPublicacion($publicacion, $idProducto)
+    function altaPublicacion($data, $idProducto)
 
     {
 
@@ -204,9 +210,9 @@ class ProductoController extends Controller
 
         $validacion = true;
 
-        if (FuncionesComunes::validarCadena($publicacion["titulo"])) {
+        if (FuncionesComunes::validarCadena($data->titulo)) {
 
-            $publicar->setTitulo($publicacion["titulo"]);
+            $publicar->setTitulo($data->titulo);
 
 
 
@@ -215,9 +221,9 @@ class ProductoController extends Controller
             $validacion = false;
 
         }
-        if (!empty($publicacion["envio"])) {
+        if (!empty($data->envio)) {
 
-            $entrega = $publicacion["envio"];
+            $entrega = $data->envio;
 
             $entregaPubli = new formaentrega();
 
@@ -242,7 +248,7 @@ class ProductoController extends Controller
             $publicacion_Entrega = new Publicacion_Entrega();
 
             $idPublicacion = $publicar->insertarPublicacion();
-            echo  $idPublicacion;
+
 
             $publicacion_Entrega->setIdPublicacion($idPublicacion);
 

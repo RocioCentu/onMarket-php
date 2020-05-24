@@ -1,6 +1,6 @@
 <script>
 
-
+    const pathComentarios2 = "<?php echo getBaseAddress() . "MostrarProducto/AgregarComentario"; ?>";
     const pathComentarios = "<?php echo getBaseAddress() . "MostrarProducto/AgregarComentario"; ?>";
 
 </script>

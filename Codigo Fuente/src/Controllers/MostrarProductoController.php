@@ -203,9 +203,9 @@ class MostrarProductoController extends Controller
         $productoABuscar = new Producto();
         $imagenABuscar = new Imagen();
 
-        $productoABuscar->setNombre($nombre);
 
-        $idsProductos = $productoABuscar->buscarProductoEnLaBase();
+
+        $idsProductos = $productoABuscar->buscarProductoEnLaBase($nombre);
 
         if (empty($idsProductos)) {
             echo "no hay productos relacionados";

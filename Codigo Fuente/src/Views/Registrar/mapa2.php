@@ -1,5 +1,5 @@
 
-<div id="mapa-geocoder" class="mapa" style="width: 100%; height: 626.257px; position: relative; overflow: hidden;""></div>
+<div id="mapa-geocoder" class="mapa" style="width: 100%; height: 426.257px; position: relative; overflow: hidden;""></div>
 
 
 <script>

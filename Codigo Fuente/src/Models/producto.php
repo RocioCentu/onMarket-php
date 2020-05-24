@@ -44,8 +44,8 @@ class Producto extends Model
     }
 
 
-    function buscarProductoEnLaBase(){
-        $resultadoDeLaBusqueda= $this->pageRows(0,100, "nombre like '%$this->nombre%'");
+    function buscarProductoEnLaBase($nombre){
+        $resultadoDeLaBusqueda= $this->pageRows(0,100, "nombre like '%$nombre%'");
         $idArray=[];
        if(!empty($resultadoDeLaBusqueda[0])){
             for($i=0;$i<count($resultadoDeLaBusqueda);$i++){

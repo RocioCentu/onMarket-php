@@ -23,9 +23,11 @@ class BuscadorController extends Controller
                 $productoABuscar = new Producto();
                 $imagenABuscar= new Imagen();
 
-                $productoABuscar->setNombre($nombreProducto);
-                $idsProductos=$productoABuscar->buscarProductoEnLaBase();
 
+                $idsProductos=$productoABuscar->buscarProductoEnLaBase( $nombreProducto);
+                if(empty($idsProductos)){
+                    throw new ProductoNoEncontradoException("No hay coincidencias con la búsqueda", CodigoError::ProductoNoEncontrado);
+                }else{
                 $publicacion=new Publicacion();
 
                 $idsFinal=[];
@@ -35,6 +37,9 @@ class BuscadorController extends Controller
 
                     array_push($publicaciones,$publicacion->traerPublicaciondelProducto($idsProductos[$i]));
                 }
+
+
+
                 foreach($publicaciones as $p){
                     if($p["id_Estado"]==1){
                         array_push($idsFinal,$p["id_Producto"]);
@@ -43,9 +48,7 @@ class BuscadorController extends Controller
                 }
 
 
-                if(empty($idsFinal)){
-                    throw new ProductoNoEncontradoException("No hay coincidencias con la búsqueda", CodigoError::ProductoNoEncontrado);
-                }else{
+
 
                 $productosEncontrados=[];
                 $imagenesEncontradas=[];

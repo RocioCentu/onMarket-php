@@ -14351,3 +14351,949 @@ StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\Cuenta.php(27): glob
 #3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #4 {main}
 
+[2020-05-24 09:53:59]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 52
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 10:27:21]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:27:51]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:28:06]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:28:13]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:35:11]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 10:35:17]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 10:35:33]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 10:38:34]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:38:43]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:39:10]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:39:15]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:39:25]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:39:33]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:40:45]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:41:52]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 10:58:28]  Excepción no controlada: 'Undefined variable: mensaje' en el archivo publicar.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Producto\publicar.php(13): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(31): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:09:13]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(142): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:09:21]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(142): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:09:45]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(143): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:16:26]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(153): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:16:43]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(153): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:18:19]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(154): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:20:24]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(155): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:20:51]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(156): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:21:12]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(156): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:26:09]  Excepción no controlada: 'Too few arguments to function Controller::render(), 1 passed in C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php on line 32 and exactly 2 expected' en el archivo Controller.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(32): Controller->render('publicar')
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 11:26:36]  Excepción no controlada: 'Too few arguments to function Controller::render(), 1 passed in C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php on line 32 and exactly 2 expected' en el archivo Controller.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(32): Controller->render('publicar')
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 11:27:47]  Excepción no controlada: 'Too few arguments to function Controller::render(), 1 passed in C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php on line 32 and exactly 2 expected' en el archivo Controller.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(32): Controller->render('publicar')
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 11:30:25]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(155): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:32:56]  Excepción no controlada: 'Undefined variable: mensaje' en el archivo publicar.php en la línea 11
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Producto\publicar.php(11): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(36): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:33:19]  Excepción no controlada: 'Array to string conversion' en el archivo publicar.php en la línea 11
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Producto\publicar.php(11): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(36): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:33:21]  Excepción no controlada: 'Array to string conversion' en el archivo publicar.php en la línea 11
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Producto\publicar.php(11): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(36): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:33:48]  Excepción no controlada: 'Array to string conversion' en el archivo publicar.php en la línea 11
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Producto\publicar.php(11): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(38): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:33:49]  Excepción no controlada: 'Array to string conversion' en el archivo publicar.php en la línea 11
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Producto\publicar.php(11): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(38): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 11:35:16]  Excepción no controlada: 'Undefined variable: mensaje' en el archivo publicar.php en la línea 11
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Views\Producto\publicar.php(11): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(31): Controller->render('publicar')
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->publicar(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 12:06:26]  Excepción no controlada: 'Undefined index: data' en el archivo ProductoController.php en la línea 60
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(60): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 12:06:39]  Excepción no controlada: 'Undefined index: data' en el archivo ProductoController.php en la línea 60
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(60): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 12:13:49]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'ProductoController' does not have a method 'publicar?titulo=&categoria=0&nombre=&descripcion=&cantidad=&precio=&destino=..%2FWebroot%2FimgCargadas&imagen%5B%5D='' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:17:29]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'ProductoController' does not have a method 'publicar?titulo=&categoria=0&nombre=&descripcion=&cantidad=&precio=&destino=..%2FWebroot%2FimgCargadas&imagen%5B%5D='' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:17:33]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'ProductoController' does not have a method 'publicar?titulo=&categoria=0&nombre=&descripcion=&cantidad=&precio=&destino=..%2FWebroot%2FimgCargadas&imagen%5B%5D='' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:19:31]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'ProductoController' does not have a method 'publicar?titulo=&categoria=0&nombre=&descripcion=&cantidad=&precio=&destino=..%2FWebroot%2FimgCargadas&imagen%5B%5D='' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:19:32]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'ProductoController' does not have a method 'publicar?titulo=&categoria=0&nombre=&descripcion=&cantidad=&precio=&destino=..%2FWebroot%2FimgCargadas&imagen%5B%5D='' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:19:35]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'ProductoController' does not have a method 'publicar?titulo=&categoria=0&nombre=&descripcion=&cantidad=&precio=&destino=..%2FWebroot%2FimgCargadas&imagen%5B%5D='' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:23:04]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'ProductoController' does not have a method 'publicar?titulo=&categoria=0&nombre=&descripcion=&cantidad=&precio=&destino=..%2FWebroot%2FimgCargadas&imagen%5B%5D='' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:30:40]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:32:18]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:34:35]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:34:47]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:34:55]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:35:59]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:39:29]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:53:11]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'ProductoController' does not have a method 'publicar?titulo=&categoria=0&nombre=&descripcion=&cantidad=&precio=&destino=..%2FWebroot%2FimgCargadas&imagen%5B%5D='' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 12:57:31]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 56
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\publicacion.php(56): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(36): Publicacion->traerPublicaciondelProducto('13')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 12:57:47]  Excepción no controlada: 'Undefined offset: 0' en el archivo MostrarProductoController.php en la línea 31
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MostrarProductoController.php(31): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 12:59:11]  Excepción no controlada: 'Undefined index: latitud' en el archivo MostrarProductoController.php en la línea 31
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MostrarProductoController.php(31): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:00:24]  Excepción no controlada: 'Undefined offset: 0' en el archivo MostrarProductoController.php en la línea 31
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MostrarProductoController.php(31): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:04:31]  Excepción no controlada: 'Object of class stdClass could not be converted to string' en el archivo ProductoController.php en la línea 53
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 13:05:41]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:08:12]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:08:59]  Error 7: 'Cantidad Incorrecta ' en el archivo ProductoController.php en la línea 74
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 13:09:09]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:09:16]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:09:27]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:10:02]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:12:21]  Excepción no controlada: 'Illegal string offset 'imagen'' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:13:50]  Excepción no controlada: 'Illegal string offset 'imagen'' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:14:09]  Excepción no controlada: 'Illegal string offset 'imagen'' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:29:25]  Excepción no controlada: 'syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 13:32:21]  Excepción no controlada: 'Cannot use object of type stdClass as array' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 13:33:30]  Excepción no controlada: 'Array to string conversion' en el archivo ProductoController.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(98): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:34:47]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:35:37]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(98): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:36:09]  Excepción no controlada: 'Undefined offset: 0' en el archivo ProductoController.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(98): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:36:31]  Excepción no controlada: 'Illegal string offset 'imagen'' en el archivo ProductoController.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(98): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:36:46]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:37:02]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:37:58]  Excepción no controlada: 'Trying to get property 'cantidad' of non-object' en el archivo ProductoController.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(98): globalErrorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:38:40]  Excepción no controlada: 'Object of class stdClass could not be converted to string' en el archivo ProductoController.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 13:39:04]  Excepción no controlada: 'Object of class stdClass could not be converted to string' en el archivo ProductoController.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 13:39:23]  Excepción no controlada: 'Array to string conversion' en el archivo ProductoController.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(98): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:39:49]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:40:06]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:41:18]  Excepción no controlada: 'Illegal string offset 'nombre'' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:41:43]  Excepción no controlada: 'Trying to get property 'nombre' of non-object' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:42:02]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:45:19]  Excepción no controlada: 'Illegal string offset 'categoria'' en el archivo ProductoController.php en la línea 101
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(101): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:45:47]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:46:21]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:46:37]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:49:02]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:49:36]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:54:46]  Excepción no controlada: 'utf8_decode() expects parameter 1 to be string, array given' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'utf8_decode() e...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): utf8_decode(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 13:55:11]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:58:27]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 101
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(101): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:58:28]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 101
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(101): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 13:58:59]  Excepción no controlada: 'Undefined index: data' en el archivo ProductoController.php en la línea 46
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(46): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 14:59:07]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 14:59:34]  Excepción no controlada: 'Cannot use object of type stdClass as array' en el archivo ProductoController.php en la línea 101
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:00:30]  Excepción no controlada: 'count(): Parameter must be an array or an object that implements Countable' en el archivo ProductoController.php en la línea 101
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(101): globalErrorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:00:55]  Excepción no controlada: 'count(): Parameter must be an array or an object that implements Countable' en el archivo ProductoController.php en la línea 101
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(101): globalErrorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:01:10]  Excepción no controlada: 'Object of class stdClass could not be converted to string' en el archivo ProductoController.php en la línea 103
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:04:00]  Excepción no controlada: 'Object of class stdClass could not be converted to string' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:05:51]  Excepción no controlada: 'Object of class stdClass could not be converted to string' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:07:37]  Excepción no controlada: 'Cannot use object of type stdClass as array' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:09:06]  Excepción no controlada: 'Illegal string offset 'imagen'' en el archivo ProductoController.php en la línea 99
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(99): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:09:17]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:11:25]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 101
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(101): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:12:42]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:13:18]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:13:41]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:14:06]  Excepción no controlada: 'json_decode() expects parameter 1 to be string, object given' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): json_decode(Object(stdClass), true)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 15:14:40]  Excepción no controlada: 'Illegal string offset 'imagen'' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:15:29]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:16:07]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:16:18]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:16:33]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:16:53]  Error 7: 'Titulo Incorrecto' en el archivo ProductoController.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:17:14]  Error 7: 'Cantidad Incorrecta ' en el archivo ProductoController.php en la línea 74
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:17:20]  Error 7: 'Cantidad Incorrecta ' en el archivo ProductoController.php en la línea 74
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:17:25]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:18:23]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:19:29]  Excepción no controlada: 'Cannot use object of type stdClass as array' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 15:20:53]  Excepción no controlada: 'Undefined property: stdClass::$imagen' en el archivo ProductoController.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(100): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:21:34]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:31:19]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(102): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:32:03]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 107
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(107): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:32:27]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 107
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(107): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 15:33:14]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 176
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(176): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(140): ProductoController->guardarImagenes(Array, 4)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 15:42:29]  Excepción no controlada: 'count(): Parameter must be an array or an object that implements Countable' en el archivo formaEntrega.php en la línea 11
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\formaEntrega.php(11): globalErrorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(229): FormaEntrega->obtenerIdMetodoEntrega('Correo')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(142): ProductoController->altaPublicacion(Object(stdClass), 33)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 15:44:34]  Excepción no controlada: 'count(): Parameter must be an array or an object that implements Countable' en el archivo formaEntrega.php en la línea 11
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\formaEntrega.php(11): globalErrorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(229): FormaEntrega->obtenerIdMetodoEntrega('Correo')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(142): ProductoController->altaPublicacion(Object(stdClass), 34)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 15:46:11]  Excepción no controlada: 'count(): Parameter must be an array or an object that implements Countable' en el archivo formaEntrega.php en la línea 11
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\formaEntrega.php(11): globalErrorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(229): FormaEntrega->obtenerIdMetodoEntrega('Correo')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\ProductoController.php(142): ProductoController->altaPublicacion(Object(stdClass), 35)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2020-05-24 16:46:55]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/PublicacionesController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 16:48:45]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/PublicacionesController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 16:50:12]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 16:51:29]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 56
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\publicacion.php(56): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(36): Publicacion->traerPublicaciondelProducto('32')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 16:51:37]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 56
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\publicacion.php(56): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(36): Publicacion->traerPublicaciondelProducto('13')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 16:51:41]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 56
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\publicacion.php(56): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(36): Publicacion->traerPublicaciondelProducto('13')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 16:53:06]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 56
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\publicacion.php(56): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(36): Publicacion->traerPublicaciondelProducto('13')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 16:57:30]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 56
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\publicacion.php(56): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(36): Publicacion->traerPublicaciondelProducto('13')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 16:59:06]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 56
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\publicacion.php(56): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(38): Publicacion->traerPublicaciondelProducto('11')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 16:59:23]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 56
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Models\publicacion.php(56): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\BuscadorController.php(38): Publicacion->traerPublicaciondelProducto('11')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 17:06:56]  Excepción no controlada: 'Undefined offset: 0' en el archivo MostrarProductoController.php en la línea 31
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MostrarProductoController.php(31): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2020-05-24 17:12:00]  Excepción no controlada: 'Too few arguments to function Producto::buscarProductoEnLaBase(), 0 passed in C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MostrarProductoController.php on line 208 and exactly 1 expected' en el archivo producto.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MostrarProductoController.php(208): Producto->buscarProductoEnLaBase()
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Controllers\MostrarProductoController.php(37): MostrarProductoController->mostrarProductosRelacionados('Zapatillas', '19')
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 18:03:51]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 18:03:57]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 18:04:39]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 18:04:48]  Excepción no controlada: 'require(C:/xampp/htdocs/WEB/Codigo Fuente/src/Controllers/WebrootController.php): failed to open stream: No such file or directory' en el archivo dispatcher.php en la línea 23
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): globalErrorHandler(2, 'require(C:/xamp...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(23): require()
+#2 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#3 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2020-05-24 18:06:09]  Error 45: 'No hay cobranzas en el período seleccionado' en el archivo LiquidacionController.php en la línea 70
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): LiquidacionController->crearLiquidacion(Array)
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 18:09:59]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 18:10:09]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 18:10:18]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2020-05-24 18:10:38]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\WEB\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\WEB\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+

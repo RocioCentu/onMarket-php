@@ -45,7 +45,7 @@
         </div>
 
         <div class="form-group col-md-6">
-            <label class="text-primary " for="cuit">Cuit:</label>
+            <label class="text-primary " for="cuit">Cuil:</label>
             <input class="form-control" type="text" id="cuit" name="cuit">
             <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorCuit">
                 <i class="fa fa-exclamation-circle  mr-2"></i>
@@ -107,27 +107,36 @@
                 <h6 class="text-primary">Ingrese una dirección:</h6>
 
                 <div class="form-row">
-                    <div class="col-7">
+                    <div class="col-4">
                         <input type="text" class="form-control" id="direccion" placeholder="Mi ubicación...">
+                        <small id="passwordHelpBlock" class="form-text text-muted">Esta dirección será visible en todas tus
+                            publicaciones.
+                        </small>
                     </div>
-                    <button class="btn btn-primary" id="buscar" name="btnBuscar">Buscar</button>
+
+                    <div class="col-2">
+
+                        <button class="btn btn-primary" id="buscar" name="btnBuscar">Verficar ubicacion</button>
+                    </div>
+                    <div class="d-none alert-danger p-1 rounded justify-content-center error w-50 my-2 align-items-center" id="errorDireccion">
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
+                        <small class="text-left"></small>
+                    </div>
+
+                    <div class="col-6">
+                        <?php
+                        include_once("mapa2.php")
+                        ?>
+                    </div>
                 </div>
 
-                <div class="d-none alert-danger p-1 rounded justify-content-center error w-50 my-2 align-items-center" id="errorDireccion">
-                    <i class="fa fa-exclamation-circle  mr-2"></i>
-                    <small class="text-left"></small>
-                </div>
 
-                <small id="passwordHelpBlock" class="form-text text-muted">Esta dirección será visible en todas tus
-                    publicaciones.
-                </small>
+
             </div>
 
             <div class="container-fluid d-none" id="contenedorMapa">
 
-                <?php
-                include_once("mapa2.php")
-                ?>
+
 
                 <input class="form-control" type="hidden" id="lat">
                 <input class="form-control" type="hidden" id="lon">

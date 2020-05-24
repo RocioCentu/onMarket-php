@@ -29,9 +29,6 @@ function validarComentario() {
     var coment = $("#comentario").val();
     if (coment.length === 0 || coment === null || coment.length === "") {
         validacion = true;
-    } else if (!regexLetrasYNumeros.test(coment)) {
-        $("#errorComentario").removeClass("d-none").addClass("d-flex").find("small").text("Solo pueden ser letras y números");
-        $("#errorComentario").fadeIn("slow");
     } else {
         validacion = true;
 

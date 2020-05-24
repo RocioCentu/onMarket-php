@@ -1,12 +1,23 @@
 
+<script>
 
+    const pathPublicaciones = "<?php echo getBaseAddress() . "MisPublicaciones/publicaciones" ?>";
+    const pathPublicar = "<?php echo getBaseAddress(). "Producto/altaProducto" ?>";
+</script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 
 <!-–Publicacion-–>
 <br>
+
+
+
+
+
 <div class="container mt-3">
     <h3 class="text-primary text-center mb-4">Crear publicación</h3>
-    <form method="post" action="<?php echo getBaseAddress(). "Producto/altaProducto" ?>" method="post" enctype="multipart/form-data">
+
+
+    <form enctype="multipart/form-data">
 
         <div class="form-group col-md-12 pl-0">
             <label class="text-primary">Indicá un título para tu publicación*</label>
@@ -15,7 +26,7 @@
                 fácilmente.
             </small>
 
-            <div id="errortitulo" class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center">
+            <div id="errorTitulo" class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center">
                 <i class="fas fa-exclamation-circle mr-2"></i>
                 <small class="text-center"></small>
             </div>
@@ -26,17 +37,17 @@
             <hr>
             <label class="text-primary">Método de entrega*</label>
             <div class="form-check">
-                <input type="checkbox" name="envio[]" value="acordarConElVendedor" id="entrega">
+                <input type="checkbox" class="envio"  name="envio[]" value="acordarConElVendedor" id="entrega" checked>
                 <label class="form-check-label">Acordar con el vendedor</label>
             </div>
 
 
             <div class="form-check">
-                <input type="checkbox" name="envio[]" value="Correo" id="envio">
+                <input type="checkbox" class="envio" name="envio[]" value="Correo" id="envio">
                 <label class="form-check-label">Realizar envío por correo</label>
             </div>
-            <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorenvio">
-                <i class="fa fa-exclamation-circle  mr-2" ></i>
+            <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorEnvio">
+                <i class="fa fa-exclamation-circle  mr-2"></i>
                 <small class="text-left"></small>
             </div>
 
@@ -52,7 +63,7 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label class="text-primary">Seleccioná una categoría*</label>
-                    <select class="custom-select" id="inputGroupSelect01" name="categoria" id="categoria">
+                    <select class="custom-select"  name="categoria" id="categoria">
                         <option value="0" selected>Seleccionar...</option>
                         <option value="electronica">Electrónica</option>
                         <option value="moda">Moda y belleza</option>
@@ -130,8 +141,8 @@
 
                             <div class="col-sm">
                                 <div class="form-group bg-secondary text-white">
-                                    <input type="hidden" value="<?php echo "../Webroot/imgCargadas" ?>" name="destino">
-                                    <input type="file" class="form-control-file" name="imagen[]" accept="image/png, .jpeg, .jpg" multiple id="imagen">
+                                    <input type="hidden" id="destino" value="<?php echo "../Webroot/imgCargadas" ?>" name="destino">
+                                    <input type="file" class="form-control-file" name="imagen" accept="image/png, .jpeg, .jpg" multiple id="imagen">
                                 </div>
                             </div>
                         </div>
@@ -142,7 +153,7 @@
                 </div>
 
                     <div class="btn btn-primary btn-lg btn-block">
-                        <input type="submit"  value="Realizar publicación" class="btn btn-primary" id="publicar">
+                        <input type="button"  value="Realizar publicación" class="btn btn-primary" id="publicar">
                     </div>
 
             </div>

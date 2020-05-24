@@ -77,7 +77,7 @@ class LiquidacionController extends Controller
 
         }
 
-        echo json_encode($id);
+        echo json_encode(true);
     }
 
 

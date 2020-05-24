@@ -329,15 +329,7 @@ class UsuarioController extends Controller
         } else {
             $error .= 1;
         }
-        if (isset($comentario)) {
-            if (FuncionesComunes::validarCadenaNumerosYEspacios($comentario)) {
-                $valoracion->setComentario($comentario);
-                $error = 0;
-            } else {
-                $error .= 1;
 
-            }
-        }
         if ($error == 0) {
             $valoracion->insertarValoracion();
 
